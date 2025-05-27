@@ -17,3 +17,18 @@ Under hyperbolic equation, see `train_hyper_all_pf.jl` for neural operator train
 
 ## Evaluation of online safety filtering
 For the safety filtering over the collected trajectories, see Jupyter file `test_cbf_hyper.ipynb` for hyperbolic equation, `test_cbf_parabolic.ipynb` for parabolic equation, and `test_cbf_ns.ipynb` for Navier-Stokes equation. For the reward and PF metric metric evaluation, see Jupyter file `transportPDE/HyperbolicPDEExample.ipynb` for hyperbolic equation,  Jupyter file `reactionDiffusionPDE/ParabolicPDEExample.ipynb` for parabolic equation and Jupyter file `NS2Dtest.ipynb` Navier-Stokes equation.
+
+
+## Citation 
+If you find the repo useful, please cite:
+
+H. Hu and C. Liu
+"[Safe PDE Boundary Control with Neural Operators](https://arxiv.org/abs/2411.15643)", Learning for Dynamics \& Control Conference (L4DC). PMLR, 2025
+```
+@article{hu2025safe,
+  title={Safe PDE Boundary Control with Neural Operators},
+  author={Hu, Hanjiang and Liu, Changliu},
+  journal={7th Annual Learning for Dynamics \& Control Conference},
+  year={2025}
+}
+```
